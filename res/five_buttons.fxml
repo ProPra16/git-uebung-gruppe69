@@ -24,4 +24,8 @@
         <Label fx:id="dateLabel"
                text=""/>
     </VBox>
+    <Button fx:id="buttonA"
+            text="Alert" GridPane.columnIndex="10" GridPane.columnSpan="20" GridPane.rowIndex="5"
+            onAction="#alert"/>
+
 </GridPane>
