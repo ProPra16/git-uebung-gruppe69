@@ -11,5 +11,7 @@
     <padding><Insets top="25" right="25" bottom="10" left="25"/></padding>
 
     <Text text="Five Buttons" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
-
+    <Button fx:id="buttonC"
+            text="EXIT" GridPane.columnIndex="20" GridPane.columnSpan="20" GridPane.rowIndex="5"
+        onAction="#exit"/>
 </GridPane>
